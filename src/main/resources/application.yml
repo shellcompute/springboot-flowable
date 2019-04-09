@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/flowabledb?characterEncoding=UTF-8
+    username: flowable
+    password: flowable123
+flowable:
+  # 关闭flowable的定时任务
+  async-executor-activate: false
